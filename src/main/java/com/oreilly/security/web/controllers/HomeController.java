@@ -10,6 +10,7 @@ public class HomeController {
 
 	@RequestMapping(method=RequestMethod.GET)
 	public String goHome(){
+	System.out.println("This is for home controller");
 		return "home";
 	}
 	
